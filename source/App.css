@@ -1,0 +1,175 @@
+.panel {
+    background:#F5F4D7 url(../assets/bg-logo.png) no-repeat center center;
+}
+
+.panel.people {
+    width:60%;
+}
+
+.panel.people .onyx-toolbar {
+    white-space: nowrap;
+}
+
+.panel.people .onyx-toolbar > * {
+    vertical-align:middle;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.panel.people .onyx-groupbox .onyx-groupbox-header .onyx-icon-button {
+    float:right;
+}
+
+.onyx-groupbox {
+    margin:6px;
+    background-color:#E0DFB1;
+}
+
+.onyx-groupbox .item-list > :nth-child(odd) {
+    background-color:#f0eFc1;
+}
+
+.item-list .onyx-icon {
+    float:right;
+    background-position:top right;
+    display:none; 
+}
+
+.item-list .selected .onyx-icon, .item-list .onyx-input-decorator:hover .onyx-icon {
+    display:inline-block;
+}
+
+.item-list .onyx-input-decorator {
+    overflow:hidden;
+}
+
+.onyx-groupbox-header {
+    background-color:#A5A36C;
+}
+
+.onyx-groupbox-header .onyx-button {
+    background-color: #F5F4D7;
+    margin-left:6px;
+}
+
+.onyx-groupbox .total-row {
+    font-weight:bold;
+}
+
+.panel.list {
+
+}
+
+.panel .onyx-toolbar {
+    background-color:#951F2B;
+    overflow:visible;
+    height:57px;
+}
+
+.panel .onyx-toolbar .onyx-button {
+    background-color:#535233;
+}
+
+.person-block .name, .purchased-gifts-header {
+    font-size:12pt;
+    line-height:34px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    text-transform: none;
+    letter-spacing: 2px;
+    font-weight:normal;
+}
+
+.person-block .onyx-checkbox {
+    margin-right:6px;
+}
+
+.person-block .linked {
+    color:blue;
+    text-decoration: underline;
+}
+
+.onyx-popup .onyx-groupbox {
+    width:320px;
+}
+
+.onyx-popup .onyx-input {
+    width:100%;
+}
+
+.onyx-popup .buttons .onyx-button {
+    display:inline-block;
+    min-width:98px;
+    margin:6px;
+}
+
+.onyx-popup .buttons :first-child {
+    float:left;
+}
+
+.onyx-popup .buttons :last-child {
+    float:right;
+}
+
+.onyx-popup {
+    background-color:#F5F4D7;
+}
+
+.onyx-menu {
+    background-color:#951F2B;
+    color:#fff;
+}
+
+.onyx-picker .onyx-menu-item:active, .onyx-picker .onyx-menu-item.selected {
+    background-color:#F5F4D7;
+    color:#000;
+}    
+
+.loading-popup {
+    text-align:center;
+    color:#000;
+    padding:6px 12px;
+}
+
+/* fixes for pickers in toolbar */
+.onyx-toolbar .onyx-picker-decorator {
+    margin: 0px 6px;
+}
+
+.onyx-toolbar .onyx-picker-decorator .onyx-button {
+    padding:8px 18px;
+}
+
+.add-person-button {
+    float:left;
+}
+
+.account-menu {
+    float:left;
+}
+
+.show-purchased-button {
+    float:right;
+    display:none;
+}
+
+.show-giftlists-button {
+    float:left;
+    display:none;
+}
+
+.sort-picker {
+    float:right;
+}
+
+.login-popup .message {
+    line-height:2em;
+    color:#951F2B;
+    margin:0px 6px;
+}
+
+@media screen and (max-width: 800px) {
+    .show-purchased-button, .show-giftlists-button {
+        display:block;
+    }
+}

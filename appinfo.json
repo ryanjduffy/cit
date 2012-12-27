@@ -1,0 +1,10 @@
+{
+    "id": "com.tiqtech.cit",
+    "version":"0.1.4",
+    "vendor":"tiqTech.com",
+    "type":"web",
+    "main":"index.html",
+    "title":"Checking It Twice",
+    "uiRevision":"2",
+    "icon":"icon.png"
+}
