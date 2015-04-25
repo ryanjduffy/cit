@@ -1,5 +1,6 @@
 .panel {
     background:#F5F4D7 url(../assets/bg-logo.png) no-repeat center center;
+    position: absolute;
 }
 
 .panel.people {

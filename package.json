@@ -1,0 +1,10 @@
+{
+  "name": "cit",
+  "main": "index.js",
+  "style": [
+  	"src/App.css"
+  ],
+  "assets": [
+  	"assets/*"
+  ]
+}
